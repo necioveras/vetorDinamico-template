@@ -1,8 +1,8 @@
 saida.out:
-	gcc vetor.c
+	gcc main.c
 
 clean:
-	rm saida.out
+	rm a.out
 
 test-all: test1 test2 test3 clean
 

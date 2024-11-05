@@ -2,7 +2,7 @@ echo "Testando (1)..."
 echo
 
 output=$(./a.out < ./testes/input1.txt)
-expected_output="[1,2,3,4]"
+expected_output="[1, 2, 3, 4]"
 
 if [ $? -eq 0 ] ; then
   echo "Running ok: Program exited zero"
